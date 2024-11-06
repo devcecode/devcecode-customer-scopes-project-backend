@@ -9,8 +9,8 @@ export async function SendEmail() {
   try {
     const response = await resend.emails.send({
       from: 'onboarding@resend.dev',
-      to: 'devcecode@gmail.com',
-      subject: 'Hello World',
+      to: 'anthony@customerscoops.com ',
+      subject: 'Test FE Developer',
       html: htmlContent
     });
   
